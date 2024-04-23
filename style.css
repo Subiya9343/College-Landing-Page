@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 500px;
+    background: rgb(1, 1, 38);
+    border-bottom-left-radius: 31%;
+    border-bottom-right-radius: 31%;
+}
+.head-line1{
+    color: white;
+    display: inline;
+}
+#l1{
+    margin-left: 90px;
+}
+#l1, #l2, #l3{
+    padding: 0px 10px;
+    align-items: left;
+}
+#r1, #r2{
+    float: right;
+    margin-right: 50px;
+}
+nav{
+    background: white;
+    display: flex;
+    padding: 9px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 80px;
+}
+.nav-links{
+    text-align: center;
+    margin-left: 170px
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn{
+    margin-left: 110px;
+}
+#acc{
+    padding: 8px 17px;
+    background: rgb(1, 1, 38);
+    color: white;
+    margin-left: 7px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.content{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+}
+.content h1{
+    font-size: 35px;
+    margin-bottom: 17px;
+}
+.content p{
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.content h5{
+     margin-bottom: 29px;
+}
+.icons{
+    font-size: 32px;
+}
+.icons a{
+    padding: 0px 12px;
+}
+.context{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.context img{
+    width: 320px;
+    height: 180px;
+    border-radius: 9px;
+}
+.context p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.info{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.info .question{
+    padding: 170px 18px;
+    background: rgb(1, 1, 38);
+    color: white;
+    border-radius: 18px;
+    margin-left: 20px;
+}
+.info .answer{
+    margin: 90px 230px;
+    text-align: center;
+}
+.answer img{
+    width:82px; 
+    height:99px;
+    border-radius: 30%;
+}
+.answer p{
+    margin: 17px 0px 14px 0px;
+    opacity: 0.8;
+}
+.comment-img img{
+    width: 42px;
+    height: 49px;
+    margin: 32px 9px;
+    border-radius: 30%;
+}
+.news{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 30px;
+}
+.news1, .news2, .news3, .news4{
+    border: 1px solid rgb(254, 254, 254);
+    height: 190px;
+    width: 250px;
+    border-radius: 7%;
+    background: rgb(214, 210, 210);
+}
+.news h3{
+    text-align: center;
+    padding: 15px 7px;
+}
+.news p{
+    padding: 98px 0px 0px 16px;
+}
